@@ -1,0 +1,9 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=00401733
+eax=004453A0 ebx=00000000 ecx=00000000 edx=0028A43C esi=61276558 edi=611A1EDF
+ebp=0028AC68 esp=00289C30 program=C:\Users\Sam\Desktop\Dev\CPPSandbox\dist\Debug\Cygwin-Windows\cppsandbox.exe, pid 14016, thread main
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
+0028AC68  00401733  (00000001, 0028AC90, 20010100, 6127677F)
+0028ACF8  61007535  (00000000, 0028CD78, 61006B20, 00000000)
+End of stack trace
