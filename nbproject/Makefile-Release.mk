@@ -36,6 +36,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 # Object Files
 OBJECTFILES= \
 	${OBJECTDIR}/ReverseString.o \
+	${OBJECTDIR}/RotateMatrix90.o \
 	${OBJECTDIR}/Sorting.o \
 	${OBJECTDIR}/UniqueString.o \
 	${OBJECTDIR}/main.o
@@ -69,6 +70,11 @@ ${OBJECTDIR}/ReverseString.o: ReverseString.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} $@.d
 	$(COMPILE.cc) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/ReverseString.o ReverseString.cpp
+
+${OBJECTDIR}/RotateMatrix90.o: RotateMatrix90.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} $@.d
+	$(COMPILE.cc) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/RotateMatrix90.o RotateMatrix90.cpp
 
 ${OBJECTDIR}/Sorting.o: Sorting.cpp 
 	${MKDIR} -p ${OBJECTDIR}
