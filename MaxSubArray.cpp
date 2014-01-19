@@ -28,7 +28,7 @@ void maxSubArray(int arr[],int len){
     cout<<"The final sum= "<<m_far<<"\t start index= "<<ind_start<<"\t end index= "<<ind_end<<endl;
 }
 
-int main(int argc, char** argv) {
+/*int main(int argc, char** argv) {
     
     int len;
     cout<<"Enter the length of the array"<<endl;
@@ -39,4 +39,4 @@ int main(int argc, char** argv) {
         cin>>arr[i];
     }
     maxSubArray(arr,len);
-}
+}*/
