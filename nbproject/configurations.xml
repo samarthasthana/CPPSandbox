@@ -15,6 +15,7 @@
       <itemPath>MaxSubArray.cpp</itemPath>
       <itemPath>ReverseString.cpp</itemPath>
       <itemPath>RotateMatrix90.cpp</itemPath>
+      <itemPath>SingleLinkedList.cpp</itemPath>
       <itemPath>Sorting.cpp</itemPath>
       <itemPath>UniqueString.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
@@ -47,6 +48,8 @@
       <item path="ReverseString.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="RotateMatrix90.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SingleLinkedList.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Sorting.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -81,6 +84,8 @@
       <item path="ReverseString.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="RotateMatrix90.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SingleLinkedList.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Sorting.cpp" ex="false" tool="1" flavor2="0">
       </item>

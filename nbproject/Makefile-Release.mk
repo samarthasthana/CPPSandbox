@@ -38,6 +38,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/MaxSubArray.o \
 	${OBJECTDIR}/ReverseString.o \
 	${OBJECTDIR}/RotateMatrix90.o \
+	${OBJECTDIR}/SingleLinkedList.o \
 	${OBJECTDIR}/Sorting.o \
 	${OBJECTDIR}/UniqueString.o \
 	${OBJECTDIR}/main.o
@@ -81,6 +82,11 @@ ${OBJECTDIR}/RotateMatrix90.o: RotateMatrix90.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} $@.d
 	$(COMPILE.cc) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/RotateMatrix90.o RotateMatrix90.cpp
+
+${OBJECTDIR}/SingleLinkedList.o: SingleLinkedList.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} $@.d
+	$(COMPILE.cc) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/SingleLinkedList.o SingleLinkedList.cpp
 
 ${OBJECTDIR}/Sorting.o: Sorting.cpp 
 	${MKDIR} -p ${OBJECTDIR}
