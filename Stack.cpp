@@ -82,7 +82,7 @@ void Stack:: push(int d){
 
 
 
-int main(int argc, char** argv) {
+/*int main(int argc, char** argv) {
     Stack obj;
     int choice=0,value=0;
     while(choice !=4){
@@ -111,4 +111,4 @@ int main(int argc, char** argv) {
     }
     
     return 0;
-}
+}*/

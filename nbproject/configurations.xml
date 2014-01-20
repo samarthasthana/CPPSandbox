@@ -17,6 +17,7 @@
       <itemPath>RotateMatrix90.cpp</itemPath>
       <itemPath>SingleLinkedList.cpp</itemPath>
       <itemPath>Sorting.cpp</itemPath>
+      <itemPath>Stack.cpp</itemPath>
       <itemPath>UniqueString.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
@@ -53,6 +54,8 @@
       </item>
       <item path="Sorting.cpp" ex="false" tool="1" flavor2="0">
       </item>
+      <item path="Stack.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="UniqueString.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
@@ -88,6 +91,8 @@
       <item path="SingleLinkedList.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Sorting.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Stack.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="UniqueString.cpp" ex="false" tool="1" flavor2="0">
       </item>

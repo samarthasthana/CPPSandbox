@@ -40,6 +40,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/RotateMatrix90.o \
 	${OBJECTDIR}/SingleLinkedList.o \
 	${OBJECTDIR}/Sorting.o \
+	${OBJECTDIR}/Stack.o \
 	${OBJECTDIR}/UniqueString.o \
 	${OBJECTDIR}/main.o
 
@@ -92,6 +93,11 @@ ${OBJECTDIR}/Sorting.o: Sorting.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} $@.d
 	$(COMPILE.cc) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/Sorting.o Sorting.cpp
+
+${OBJECTDIR}/Stack.o: Stack.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} $@.d
+	$(COMPILE.cc) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/Stack.o Stack.cpp
 
 ${OBJECTDIR}/UniqueString.o: UniqueString.cpp 
 	${MKDIR} -p ${OBJECTDIR}
