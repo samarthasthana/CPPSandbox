@@ -13,6 +13,7 @@
                    displayName="Source Files"
                    projectFiles="true">
       <itemPath>MaxSubArray.cpp</itemPath>
+      <itemPath>Queue.cpp</itemPath>
       <itemPath>ReverseString.cpp</itemPath>
       <itemPath>RotateMatrix90.cpp</itemPath>
       <itemPath>SingleLinkedList.cpp</itemPath>
@@ -45,6 +46,8 @@
       <compileType>
       </compileType>
       <item path="MaxSubArray.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Queue.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="ReverseString.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -83,6 +86,8 @@
         </asmTool>
       </compileType>
       <item path="MaxSubArray.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Queue.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="ReverseString.cpp" ex="false" tool="1" flavor2="0">
       </item>

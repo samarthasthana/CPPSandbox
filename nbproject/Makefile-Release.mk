@@ -36,6 +36,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 # Object Files
 OBJECTFILES= \
 	${OBJECTDIR}/MaxSubArray.o \
+	${OBJECTDIR}/Queue.o \
 	${OBJECTDIR}/ReverseString.o \
 	${OBJECTDIR}/RotateMatrix90.o \
 	${OBJECTDIR}/SingleLinkedList.o \
@@ -73,6 +74,11 @@ ${OBJECTDIR}/MaxSubArray.o: MaxSubArray.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} $@.d
 	$(COMPILE.cc) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/MaxSubArray.o MaxSubArray.cpp
+
+${OBJECTDIR}/Queue.o: Queue.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} $@.d
+	$(COMPILE.cc) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/Queue.o Queue.cpp
 
 ${OBJECTDIR}/ReverseString.o: ReverseString.cpp 
 	${MKDIR} -p ${OBJECTDIR}
