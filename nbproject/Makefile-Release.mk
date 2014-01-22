@@ -35,6 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
+	${OBJECTDIR}/Btree.o \
 	${OBJECTDIR}/MaxSubArray.o \
 	${OBJECTDIR}/Queue.o \
 	${OBJECTDIR}/ReverseString.o \
@@ -69,6 +70,11 @@ LDLIBSOPTIONS=
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/cppsandbox.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/cppsandbox ${OBJECTFILES} ${LDLIBSOPTIONS}
+
+${OBJECTDIR}/Btree.o: Btree.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} $@.d
+	$(COMPILE.cc) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/Btree.o Btree.cpp
 
 ${OBJECTDIR}/MaxSubArray.o: MaxSubArray.cpp 
 	${MKDIR} -p ${OBJECTDIR}

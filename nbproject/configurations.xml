@@ -12,6 +12,7 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>Btree.cpp</itemPath>
       <itemPath>MaxSubArray.cpp</itemPath>
       <itemPath>Queue.cpp</itemPath>
       <itemPath>ReverseString.cpp</itemPath>
@@ -45,6 +46,8 @@
       </toolsSet>
       <compileType>
       </compileType>
+      <item path="Btree.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="MaxSubArray.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Queue.cpp" ex="false" tool="1" flavor2="0">
@@ -85,6 +88,8 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="Btree.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="MaxSubArray.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Queue.cpp" ex="false" tool="1" flavor2="0">
