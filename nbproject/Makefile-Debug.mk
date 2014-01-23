@@ -35,6 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
+	${OBJECTDIR}/AnagramCheck.o \
 	${OBJECTDIR}/Btree.o \
 	${OBJECTDIR}/MaxSubArray.o \
 	${OBJECTDIR}/Queue.o \
@@ -70,6 +71,11 @@ LDLIBSOPTIONS=
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/cppsandbox.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/cppsandbox ${OBJECTFILES} ${LDLIBSOPTIONS}
+
+${OBJECTDIR}/AnagramCheck.o: AnagramCheck.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} $@.d
+	$(COMPILE.cc) -g -MMD -MP -MF $@.d -o ${OBJECTDIR}/AnagramCheck.o AnagramCheck.cpp
 
 ${OBJECTDIR}/Btree.o: Btree.cpp 
 	${MKDIR} -p ${OBJECTDIR}

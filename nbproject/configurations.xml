@@ -12,6 +12,7 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>AnagramCheck.cpp</itemPath>
       <itemPath>Btree.cpp</itemPath>
       <itemPath>MaxSubArray.cpp</itemPath>
       <itemPath>Queue.cpp</itemPath>
@@ -46,6 +47,8 @@
       </toolsSet>
       <compileType>
       </compileType>
+      <item path="AnagramCheck.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="Btree.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="MaxSubArray.cpp" ex="false" tool="1" flavor2="0">
@@ -88,6 +91,8 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="AnagramCheck.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="Btree.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="MaxSubArray.cpp" ex="false" tool="1" flavor2="0">
